@@ -1,0 +1,72 @@
+.footer {
+  margin: auto;
+  display: flex;
+  box-sizing: border-box;
+  margin-bottom: 150px;
+  .contact {
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+
+    img {
+      width: 252px;
+      height: 50.4px;
+      top: 5509px;
+      left: 381px;
+      gap: 0px;
+      opacity: 0px;
+    }
+
+    h1 {
+      font-family: Syne;
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 33.6px;
+      text-align: left;
+      color: #ffffff;
+    }
+
+    p {
+      font-family: Syne;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 33.6px;
+      text-align: left;
+      color: #bdbdbd;
+    }
+  }
+
+  .contact2 {
+    margin-top: 162px;
+    margin-left: 200px;
+
+    img {
+      width: 41px;
+      height: 41px;
+      top: 5602px;
+      left: 1159px;
+      gap: 0px;
+      opacity: 0px;
+    }
+
+    .el {
+      /* margin-top: 50px; */
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      margin-top: 30px;
+
+      p {
+        font-family: Syne;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 31px;
+        text-align: left;
+        color: #bdbdbd;
+      }
+    }
+  }
+}
