@@ -4,6 +4,10 @@
     display: flex;
 
     img {
+      @media (max-width: 575.98px) {
+        justify-content: center;
+        align-items: center;
+      }
       width: 222px;
       height: 44px;
       margin-top: 58px;
@@ -17,17 +21,27 @@
     justify-content: center;
 
     p {
+      @media (max-width: 575.98px) {
+        font-size: 20px;
+        margin-top: 123px;
+        padding: 10px;
+      }
       margin: auto;
       margin-top: 223px;
       font-family: Syne;
       font-size: 28px;
       font-weight: 400;
       line-height: 33.6px;
-      text-align: left;
+      /* text-align: left; */
       color: #ffffff;
     }
 
     button {
+      @media (max-width: 575.98px) {
+        width: 350px;
+        justify-content: center;
+        font-size: 15px;
+      }
       margin: auto;
       display: flex;
       justify-content: center;
@@ -50,12 +64,19 @@
   }
 
   .instructor {
+    @media (max-width: 575.98px) {
+      gap: 20px;
+      width: 90%;
+    }
     margin: auto;
     display: flex;
-    justify-content: start;
+    justify-content: center;
+    gap: 100px;
 
     img {
-      margin: auto;
+      @media (max-width: 575.98px) {
+        width: 160px;
+      }
       margin-top: 100px;
       /* margin-left: 450px; */
       width: 277.96px;
@@ -68,7 +89,7 @@
       flex-direction: column;
       align-items: flex-start;
       /* margin-left: 100px; */
-      margin: auto;
+      /* margin: auto; */
 
       h3 {
         width: 142px;
@@ -81,17 +102,23 @@
       }
 
       h2 {
+        @media (max-width: 575.98px) {
+          font-size: 25px;
+        }
+
         height: 46px;
 
         font-family: Karla;
         font-size: 39.37px;
         font-weight: 700;
         line-height: 46.02px;
-        /* text-align: center; */
         color: #ffffff;
       }
 
       p {
+        @media (max-width: 575.98px) {
+          font-size: 17px;
+        }
         height: 23px;
         font-family: Karla;
         font-size: 20px;
@@ -107,6 +134,9 @@
         margin-top: 30px;
 
         .date {
+          @media (max-width: 575.98px) {
+            font-size: 18px;
+          }
           font-family: Karla;
           font-size: 28px;
           font-weight: 600;
@@ -116,6 +146,9 @@
         }
 
         h2 {
+          @media (max-width: 575.98px) {
+            font-size: 18px;
+          }
           font-family: Karla;
           font-size: 28px;
           font-weight: 600;
@@ -126,19 +159,20 @@
       }
 
       button {
+        @media (max-width: 575.98px) {
+          width: 180px;
+          font-size: 12px;
+          height: 50px;
+        }
         width: 401px;
         height: 80px;
         margin: auto;
-        margin-top: 20px;
+        background-color: none;
+        background-color: #10001c;
+        /* margin-top: 20px; */
         /* display: flex; */
         justify-content: center;
-
-        top: 935px;
-        left: 802px;
-        gap: 0px;
-        border-radius: 60px 60px 60px 60px;
-        border: 2px 0px 0px 0px;
-        opacity: 0px;
+        border-radius: 50px 50px 50px 50px;
         font-family: Syne;
         font-size: 27px;
         font-weight: 600;
@@ -155,6 +189,11 @@
     margin: auto;
 
     .video {
+      @media (max-width: 575.98px) {
+        justify-content: center;
+        width: 90%;
+        height: 248px;
+      }
       background-color: #f6f6f6;
       margin: auto;
       margin-top: 100px;
@@ -180,6 +219,10 @@
     }
 
     .for-who {
+      @media (max-width: 575.98px) {
+        width: 95%;
+        /* height: 200px; */
+      }
       margin: auto;
       background-color: #fafafa;
       width: 1200px;
@@ -192,9 +235,15 @@
     }
 
     h1 {
+      @media (max-width: 575.98px) {
+        justify-content: center;
+        font-size: 28px;
+        /* width: ; */
+        /* height: 200px; */
+      }
       margin: auto;
       margin-top: 30px;
-      width: 563px;
+      /* width: 563px; */
       height: 50px;
       font-family: Syne;
       font-size: 42px;
@@ -210,6 +259,12 @@
     }
 
     .who {
+      /* @media (max-width: 575.98px) {
+        justify-content: center;
+        font-size: 28px;
+        /* width: ; */
+      /* height: 200px; */
+
       margin: auto;
       margin-top: 30px;
       display: grid;
@@ -218,6 +273,11 @@
       justify-content: center;
       align-items: center;
       li {
+        @media (max-width: 575.98px) {
+          width: 150px;
+          font-size: 32px;
+          height: 80px;
+        }
         display: flex;
         gap: 20px;
         margin: 5px; /* Adjust margin as needed */
@@ -245,6 +305,12 @@
         }
 
         p {
+          @media (max-width: 575.98px) {
+            font-size: 16px;
+            width: 120px;
+            justify-content: center;
+            /* height: 200px; */
+          }
           width: 169px;
           margin-left: 20px;
           height: 19px;
@@ -259,6 +325,11 @@
     }
 
     button {
+      @media (max-width: 575.98px) {
+        width: 271px;
+        font-size: 12px;
+        /* height: 200px; */
+      }
       margin: auto;
       margin-top: 30px;
       margin-bottom: 30px;
@@ -266,7 +337,7 @@
       height: 75px;
       border-radius: 65px 65px 65px 65px;
       opacity: 0px;
-      width: 887px;
+      /* width: 887px; */
       height: 39px;
       display: flex;
       justify-content: center;
@@ -288,6 +359,9 @@
     flex-direction: column;
 
     h1 {
+      @media (max-width: 575.98px) {
+        justify-content: center;
+      }
       margin: auto;
       margin-top: 100px;
       width: 158px;
@@ -301,6 +375,11 @@
     }
 
     .array {
+      @media (max-width: 575.98px) {
+        display: flex;
+        flex-wrap: wrap;
+        /* height: 200px; */
+      }
       margin: auto;
       margin-top: 100px;
       display: flex;
@@ -311,11 +390,15 @@
         display: flex;
         flex-direction: column;
         margin: auto;
-        gap: 30px;
+        gap: 20px;
         /* flex-wrap: wrap;
       margin: auto; */
 
         img {
+          @media (max-width: 575.98px) {
+            width: 58px;
+            /* height: 200px; */
+          }
           margin: auto;
           width: 98px;
           height: 85.7px;
@@ -347,6 +430,11 @@
     flex-direction: column;
 
     h1 {
+      @media (max-width: 575.98px) {
+        width: 171px;
+        font-size: 17px;
+        /* height: 200px; */
+      }
       margin: auto;
       margin-top: 100px;
       width: 468px;
@@ -374,6 +462,10 @@
     }
 
     .ele {
+      @media (max-width: 575.98px) {
+        gap: 30px;
+        /* height: 200px; */
+      }
       display: flex;
       margin: auto;
       margin-top: 100px;
@@ -381,6 +473,11 @@
       justify-content: space-around;
 
       img {
+        @media (max-width: 575.98px) {
+          width: 150px;
+          font-size: 17px;
+          /* height: 200px; */
+        }
         /* margin-left: 200px; */
         width: 277.96px;
         height: 302.14px;
@@ -392,6 +489,11 @@
         align-items: flex-start;
 
         h2 {
+          @media (max-width: 575.98px) {
+            width: 171px;
+            font-size: 17px;
+            /* height: 200px; */
+          }
           width: 361px;
           height: 47px;
           font-family: Syne;
@@ -401,6 +503,11 @@
           color: #ffffff;
         }
         p {
+          @media (max-width: 575.98px) {
+            width: 180px;
+            font-size: 11px;
+            /* height: 200px; */
+          }
           margin-top: 30px;
           width: 502px;
           height: 96px;
@@ -415,6 +522,11 @@
   }
 
   .agenda {
+    @media (max-width: 575.98px) {
+      width: 95%;
+      font-size: 12px;
+      /* height: 200px; */
+    }
     margin: auto;
     margin-top: 100px;
     width: 1200px;
@@ -440,6 +552,9 @@
     }
 
     .list {
+      @media (max-width: 575.98px) {
+        width: 100%;
+      }
       margin: auto;
       margin-top: 30px;
       margin-bottom: 30px;
@@ -448,13 +563,17 @@
       align-items: center;
 
       span {
+        @media (max-width: 575.98px) {
+          width: 271px;
+          /* height: 200px; */
+        }
         /* margin: auto; */
         display: flex;
         align-items: flex-start;
         gap: 30px;
         margin: 5px;
         width: 969px;
-        height: 159px;
+        /* height: 159px; */
         border-radius: 25px 25px 25px 25px;
         opacity: 0px;
         background: #ede3f5;
@@ -473,12 +592,20 @@
         }
 
         .Offer2 {
+          @media (max-width: 575.98px) {
+            width: 100%;
+          }
           display: flex;
           flex-direction: column;
           align-items: flex-start;
           margin-top: 20px;
 
           p {
+            @media (max-width: 575.98px) {
+              width: 271px;
+              font-size: 17px;
+              /* height: 200px; */
+            }
             width: 464px;
             height: 26px;
             font-family: Karla;
@@ -490,8 +617,14 @@
           }
 
           h4 {
+            @media (max-width: 575.98px) {
+              width: 281px;
+              font-size: 14px;
+
+              /* height: 200px; */
+            }
             width: 710px;
-            height: 62px;
+            /* height: 62px; */
             font-family: Karla;
             font-size: 19px;
             font-weight: 400;
@@ -502,6 +635,10 @@
       }
 
       li {
+        @media (max-width: 575.98px) {
+          width: 271px;
+          /* height: 200px; */
+        }
         display: flex;
         gap: 0px;
         margin: 5px; /* Adjust margin as needed */
@@ -524,6 +661,11 @@
           border: 1.5px solid #ffffff;
         }
         p {
+          @media (max-width: 575.98px) {
+            width: 271px;
+            font-size: 10px;
+            /* height: 200px; */
+          }
           width: 464px;
           height: 26px;
           top: 3473px;
@@ -535,127 +677,6 @@
           font-weight: 500;
           line-height: 25.72px;
           color: #1a191e;
-        }
-      }
-    }
-  }
-
-  .ques {
-    margin: auto;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-
-    h1 {
-      margin: auto;
-      margin-top: 30px;
-      width: 645px;
-      height: 50px;
-      top: 4608px;
-      left: 529px;
-      gap: 0px;
-      opacity: 0px;
-
-      font-family: Syne;
-      font-size: 42px;
-      font-weight: 700;
-      line-height: 50.4px;
-      text-align: center;
-      color: #ffffff;
-    }
-
-    .list {
-      margin: auto;
-      margin-top: 30px;
-      margin-bottom: 30px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      span {
-        /* margin: auto; */
-        display: flex;
-        align-items: flex-start;
-        gap: 30px;
-        margin: 5px;
-        width: 969px;
-        height: 159px;
-        border: 1px solid #4f4f4f;
-        border-radius: 65px 65px 65px 65px;
-
-        img {
-          width: 18px;
-          height: 18px;
-          margin-left: 20px;
-          margin-top: 20px;
-          top: 3484px;
-          left: 408px;
-          gap: 0px;
-          border: 1.5px 0px 0px 0px;
-          opacity: 0px;
-        }
-
-        .Offer2 {
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          margin-top: 20px;
-
-          p {
-            width: 464px;
-            height: 26px;
-            font-family: Karla;
-            font-size: 22px;
-            font-weight: 500;
-            line-height: 25.72px;
-            color: #e0e0e0;
-            margin-bottom: 50px;
-          }
-
-          h4 {
-            width: 710px;
-            height: 62px;
-            font-family: Karla;
-            font-size: 19px;
-            font-weight: 400;
-            line-height: 30.76px;
-            color: #e0e0e0;
-          }
-        }
-      }
-
-      li {
-        display: flex;
-        gap: 0px;
-        margin: 5px; /* Adjust margin as needed */
-        align-items: center;
-        gap: 30px;
-        /* margin: auto; */
-        width: 969px;
-        height: 52px;
-        border-radius: 65px 65px 65px 65px;
-        border: 1px solid #4f4f4f;
-        img {
-          width: 18px;
-          height: 18px;
-          margin-left: 20px;
-          left: 408px;
-          gap: 0px;
-          border: 1.5px 0px 0px 0px;
-          opacity: 0px;
-        }
-        p {
-          width: 464px;
-          height: 26px;
-          top: 3473px;
-          left: 453px;
-          gap: 0px;
-          opacity: 0px;
-          font-family: Karla;
-          font-size: 22px;
-          font-weight: 500;
-          line-height: 25.72px;
-          color: #e0e0e0;
         }
       }
     }

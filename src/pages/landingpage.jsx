@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/landingPage.css';
-  import Footer from '../components/Footer';
+import Footer from '../components/Footer';
+import Questns from '../components/questns';
 
 const Landing = () => {
   const benifits =[
@@ -132,14 +133,18 @@ const Landing = () => {
         <img src='/assets/Group 74 (1).png'></img>
         <p>Q&A Session</p>
       </li>
-      <span className='Offer'> 
+      <li>
+      <img src='/assets/Group 74 (1).png'></img>
+        <p>Exclusive Offer: Unlock Full Salesforce Course</p>
+        </li>
+      {/* <span className='Offer'> 
         <img src='/assets/Group 74 (1).png'></img>
         <div className='Offer2'>
         <p>Exclusive Offer: Unlock Full Salesforce Course</p>
         <h4> Introduction to the comprehensive Salesforce course offered by Coding Comando.<br/>
 Special discount or bonuses for workshop attendees who enroll in the full course.</h4>
         </div>
-      </span>
+      </span> */}
       <li> 
         <img src='/assets/Group 74 (1).png'></img>
         <p>Closing and Call to Action</p>
@@ -168,31 +173,7 @@ Special discount or bonuses for workshop attendees who enroll in the full course
 
 
 {/* ques */}
-<div className='ques'> 
-  <h1>Frequently Asked Questions</h1>
-  <ul className='list'>
-      <li> 
-        <img src='/assets/Group 74 (1).png'></img>
-        <p>Introduction to Salesforce</p>
-      </li>
-      <li> 
-        <img src='/assets/Group 74 (1).png'></img>
-        <p>Q&A Session</p>
-      </li>
-      <span className='Offer'> 
-        <img src='/assets/Group 74 (1).png'></img>
-        <div className='Offer2'>
-        <p>Exclusive Offer: Unlock Full Salesforce Course</p>
-        <h4> Introduction to the comprehensive Salesforce course offered by Coding Comando.<br/>
-Special discount or bonuses for workshop attendees who enroll in the full course.</h4>
-        </div>
-      </span>
-      <li> 
-        <img src='/assets/Group 74 (1).png'></img>
-        <p>Closing and Call to Action</p>
-      </li>
-    </ul>
-  </div>
+<Questns/>
 
 
 
